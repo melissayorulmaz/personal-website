@@ -7,7 +7,7 @@ export default function Profile() {
   const { darkMode } = useContext(UserContext);
   const { t } = useTranslation();
   const informationData = [
-    { title: "date", content: "24.03.1996" },
+    { title: "date", content: "14.09.2000" },
     { title: "residence", content: "Ankara" },
     { title: "education", content: t("univercity") },
     { title: "role", content: "Frontend, UI" }

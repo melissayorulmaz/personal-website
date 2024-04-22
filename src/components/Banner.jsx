@@ -1,3 +1,5 @@
+import { useContext } from "react";
+import { UserContext } from "../context/UserContext";
 import BannerFoto from "../assets/bannerfoto.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
@@ -6,17 +8,16 @@ import RectangleFoto from "../assets/Rectangle.svg";
 import { useTranslation } from 'react-i18next';
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import DarkMode from "./DarkMode";
-import { useContext } from "react";
-import { UserContext } from "../context/UserContext";
+
 
 const socialMediaLinks = [
   {
     icon: faLinkedinIn,
-    link: "https://www.linkedin.com/in/hilal-bilun-kara/"
+    link: "https://www.linkedin.com/in/melissa-%C3%B6yk%C3%BC-yorulmaz-336052259/"
   },
   {
     icon: faGithub,
-    link: "https://github.com/Hilal-Bilun-Kara"
+    link: "https://github.com/melissayorulmaz"
   }
 ];
 
@@ -41,13 +42,13 @@ export default function Banner() {
         </Link>
         <div className="w-8/12 flex justify-between items-center mx-auto">
           <div className="flex flex-col w-[610px] mt-[125px]">
-            <span className="absolute border-[55px] border-[#D9D9D9]  rounded-full left-[471px] top-[-40px]"></span>
+            <span className="absolute border-[55px] border-[#D9D9D9]  rounded-full left-[401px] top-[-49px]"></span>
             <img className="absolute w-[270px] bottom-[175px] left-[57rem]" src={RectangleFoto} /> 
             <img className="absolute w-[270px] top-[175px] left-[925px] z-10" src={BannerFoto}/>
             <div className="flex flex-col items-start text-start">
               <h2 className="text-[20px] text-[#000000] dark:text-[#FFFFFF]">{t('greeting')}</h2>
               <h1 className="text-[25px] text-[#0A0A14] font medium mt-3 relative z-50 dark:text-[#FFFFFF]">{t('mainText')}</h1>
-              <span className="absolute rounded-md w-[108px] h-[18px] bg-[#E92577] left-[220px] top-[212px]"></span>
+              <span className="absolute rounded-md w-[110px] h-[18px] bg-[#E92577] left-[250px] top-[212px]"></span>
             </div>
             <footer className="flex flex-col items-start my-10">
               <div className="flex gap-5">

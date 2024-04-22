@@ -15,16 +15,16 @@ export default function Project() {
             title: "Random Jokes",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
             tags: ["react", "vercel", "axios", "router"],
-            githubLink: "https://github.com/Hilal-Bilun-Kara/redux-filmler-solution",
-            appLink: "https://fsweb-s10g2-redux-filmler-solution-3cag.onrender.com",
+            githubLink: "https://github.com/melissayorulmaz/fsweb-s10g3-redux-watchlist-solution",
+            appLink: "https://github.com/melissayorulmaz/fsweb-s10g3-redux-watchlist-solution",
             image: RandomJokes
         },
         {
             title: "Are you bored?",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
+            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
             tags: ["react", "redux", "axios", "router", "vercel"],
-            githubLink: "https://github.com/Hilal-Bilun-Kara",
-            appLink: "https://github.com/Hilal-Bilun-Kara",
+            githubLink: "https://github.com/Workintech/fsweb-s7-challenge-pizza",
+            appLink: "https://github.com/melissayorulmaz",
             image: AreYouBored
         }
     ];
