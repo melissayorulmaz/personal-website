@@ -22,11 +22,10 @@ export default function Project() {
         {
             title: "Are you bored?",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
-            tags: ["react", "redux", "axios", "router", "vercel"],
+            tags: ["react", "redux", "axios", "router", "vercel","deneme1","deneme2"],
             githubLink: "https://github.com/Workintech/fsweb-s7-challenge-pizza",
             appLink: "https://github.com/melissayorulmaz",
-            image: AreYouBored
-        }
+            image: AreYouBored}
     ];
 
     return (
