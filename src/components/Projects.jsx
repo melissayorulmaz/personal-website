@@ -12,19 +12,19 @@ export default function Project() {
 
     const projects = [
         {
-            title: "Random Jokes",
+            title: "Film List",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
             tags: ["react", "vercel", "axios", "router"],
             githubLink: "https://github.com/melissayorulmaz/fsweb-s10g3-redux-watchlist-solution",
-            appLink: "https://github.com/melissayorulmaz/fsweb-s10g3-redux-watchlist-solution",
+            appLink: "https://fsweb-s10g3-redux-watchlist-solution-phi.vercel.app/",
             image: RandomJokes
         },
         {
             title: "Are you bored?",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
-            tags: ["react", "redux", "axios", "router", "vercel","deneme1","deneme2"],
-            githubLink: "https://github.com/Workintech/fsweb-s7-challenge-pizza",
-            appLink: "https://github.com/melissayorulmaz",
+            tags: ["react", "redux", "axios", "router", "vercel"],
+            githubLink: "https://wit-s7-spa.vercel.app/",
+            appLink: "https://github.com/fatihozcandev/WIT-s7-SPA-",
             image: AreYouBored}
     ];
 

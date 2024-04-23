@@ -20,7 +20,7 @@ function App () {
 
 const fetchData = () => {
   axios
-  .post("https://reqres.in/api/users", i18n)
+  .post("https://662692a0052332d5532353aa.mockapi.io/email", i18n)
   .then(function (response) {
     console.log(response);
     setAllData(response.data);
@@ -39,12 +39,9 @@ useEffect(() => {
 }, []);
 
   return (
-    
-    
     <UserContextProvider>
       <Switch>
         <Route path="/">
-        
             <Banner />
           <Skills/>
           <Profile/>
@@ -53,9 +50,6 @@ useEffect(() => {
           </Route>
       </Switch>
       </UserContextProvider>
-    
-    
-    
   )
 }
 
