@@ -63,6 +63,7 @@ footer:"Bir sonraki ürününüz üzerinde birlikte çalışalım."
   }
 };
 
+//burada başlangıç dilini seçtim
 i18n
   .use(initReactI18next) 
   .init({

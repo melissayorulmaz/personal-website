@@ -4,7 +4,6 @@ import BannerFoto from "../assets/bannerfoto.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import Ellipse from "../assets/Ellipse.svg";
-import RectangleFoto from "../assets/Rectangle.svg";
 import { useTranslation } from 'react-i18next';
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import DarkMode from "./DarkMode";
