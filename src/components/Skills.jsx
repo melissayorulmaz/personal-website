@@ -18,7 +18,6 @@ const skillsData = [
   { name: "VS Code", image: VS },
   { name: "Figma", image: Figma }
 ];
-
 export default function Skills() {
   const { darkMode } = useContext(UserContext);
   const { t } = useTranslation();
